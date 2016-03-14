@@ -1,3 +1,4 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [API](chapter1.md)
+  * [Wifi](wifi.md)
