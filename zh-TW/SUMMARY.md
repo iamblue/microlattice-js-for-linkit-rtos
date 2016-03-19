@@ -17,7 +17,7 @@
   * [utils](api/utils.md)
   * [gpio](api/gpio.md)
   * [adc](api/adc.md)
-  * [pwm](api/intro.md)
+  * [pwm](api/pwm.md)
   * [pinmux](api/pinmux.md)
   * [http](api/http.md)
 * [雲端服務(Mediatek cloud sandbox)](cloud/README.md)
