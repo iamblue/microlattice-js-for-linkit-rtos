@@ -61,8 +61,6 @@ pwmRead(
 
 // ** Hint ** GPIO_31 and PWM_32 is a same physical pin.
 
-/* Write example */
-
 pinmux(31, 9);  // Change GPIO_31 pin to pwm mode
 pwmRegister(32, 4, 400000);  // Regist PWM_32 to 4 MHZ mode, and frequency is 400000.
 
