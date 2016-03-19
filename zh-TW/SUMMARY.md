@@ -5,7 +5,7 @@
   * [如何初始化 Microlattice.js 環境 ?](intro/install.md)
   * [如何建造出 image ?](intro/build.md)
   * [如何燒錄 image 至版子中 ?](intro/burn.md)
-* [關於 MT7687 上的指令集]()
+* [關於 MT7687 上的指令集](command.md)
 * [MT7687 pinmux](pinmux.md) 
 * [API 範例](api/README.md)
   * [I/O](api/ioREADME.md)
