@@ -1,7 +1,10 @@
 # Summary
 * [介紹](intro/README.md)
-  * [如何創建 microlattice.js 專案](intro/README.md) 
-* [API](api/README.md)
+  * [如何創建 Microlattice.js 專案 ?](intro/README.md)
+  * [如何設定 Microlattice.js 環境 ?]()
+  * [如何建造出 image ?]()
+  * [如何燒錄 image 至版子中 ?]()
+* [API](api/README.md) Example
   * [MQTT](api/mqtt.md)
   * [md5](api/md5.md)
   * [sha](api/sha.md)
