@@ -15,13 +15,11 @@ global.eventStatus = eventStatus;
 ``` js
 
 /* Listening the channel event */
-
 global.eventStatus.on('your channel name', function(data) {
   // handle the data.
 });
 
 /* emit the channel event */
-
 global.eventStatus.on('your channel name', 'your data')
 
 ```
