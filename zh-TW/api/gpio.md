@@ -25,8 +25,8 @@ gpioRead(
 * Example
 
 ``` js
-  pinmux(35, 8);
-  Read(35, 'pulldown'); // read pin35, pulldown method
+  pinmux(35, 8); // Just once declared
+  gpioRead(35, 'pulldown'); // read pin35, pulldown method
 ```
 
 
@@ -43,5 +43,6 @@ gpioWrite(
 * Example
 
 ``` js
-  adcRead(0); // read A0
+  pinmux(35, 8); // Just once declared
+  gpioWrite(35, 0);
 ```
