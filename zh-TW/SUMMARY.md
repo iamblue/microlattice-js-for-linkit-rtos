@@ -7,26 +7,26 @@
 * [關於 MT7687 command line]()
 * [MT7687 pinmux]() 
 * [API Example](api/README.md)
-  * I/O
+  * [I/O](api/ioREADME.md)
     * [pinmux](api/pinmux.md)
     * [gpio](api/gpio.md)
     * [adc](api/adc.md)
     * [pwm](api/pwm.md)
     * [uart](api/uart.md)
-  * WIFI
+  * [WIFI](api/wifiREADME.md)
     * [wifi](api/wifi.md)
-  * Encryptor
+  * [Encryptor](api/encryptorREADME.md)
     * [md5](api/md5.md)
     * [sha](api/sha.md)
-  * Internet protocol
+  * [Internet protocol](api/internetprotocolREADME.md)
     * [MQTT](api/mqtt.md)
     * [tcp](api/tcp.md)
     * [udp](api/udp.md)
     * [http](api/http.md)
     * [https](api/https.md)
-  * Event
+  * [Event](api/eventREADME.md)
     * [event](api/event.md)
-  * Tools
+  * [Tools](api/toolsREADME.md)
     * [timer](api/timer.md)
     * [utils](api/utils.md)
 * [雲端服務(Mediatek cloud sandbox)](cloud/README.md)
