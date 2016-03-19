@@ -8,9 +8,11 @@
 * [MT7687 pinmux]() 
 * [API Example](api/README.md)
   * I/O
+    * [pinmux](api/pinmux.md)
     * [gpio](api/gpio.md)
     * [adc](api/adc.md)
     * [pwm](api/pwm.md)
+    * [uart](api/uart.md)
   * WIFI
     * [wifi](api/wifi.md)
   * Encryptor
@@ -27,6 +29,5 @@
   * Tools
     * [timer](api/timer.md)
     * [utils](api/utils.md)
-    * [pinmux](api/pinmux.md)
 * [雲端服務(Mediatek cloud sandbox)](cloud/README.md)
   * [MCS 透過 control datachannel 點燈]()
