@@ -12,15 +12,19 @@
 * Content
 
 ``` js
-mqtt(
-  host,                 // string
-  port,                 // string
-  topic,                // string
-  clientId,             // string
-  qos,                  // number: Qo0: 0, Qo1: 1, Qo2: 2
-  recieve msg callback, // function
-)
+  timer(
+    function, // function
+    ms,    // nubmer
+  )
 
 ```
 
-### mqttServer
+* Example
+
+``` js
+  // every 2s , loop `print(123);` function
+  timer(function() {
+    print(123);
+  }, 2000);
+
+```
