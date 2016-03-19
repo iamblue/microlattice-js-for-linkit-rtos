@@ -1,4 +1,4 @@
-Microlattice.js for MT7687 
+Microlattice.js for MT7687 (LinkIt RTOS)
 =======
 
 # 前言
