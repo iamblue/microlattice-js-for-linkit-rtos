@@ -6,7 +6,7 @@
   * [如何建造出 image ?]()
   * [如何燒錄 image 至版子中 ?]()
 * [關於 MT7687 上的指令集]()
-* [MT7687 pinmux]() 
+* [MT7687 pinmux](pinmux.md) 
 * [API 範例](api/README.md)
   * [I/O](api/ioREADME.md)
     * [Pinmux](api/pinmux.md)
