@@ -11,4 +11,5 @@
   * [udp](api/udp.md)
   * [utils](api/utils.md)
   * [gpio](api/gpio.md)
+  * adc
 * [雲端服務(Mediatek cloud sandbox)](cloud/README.md)
