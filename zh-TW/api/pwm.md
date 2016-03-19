@@ -65,7 +65,7 @@ pinmux(31, 9);  // Change GPIO_31 pin to pwm mode
 pwmRegister(32, 4, 400000);  // Regist PWM_32 to 4 MHZ mode, and frequency is 400000.
 
 var value = 0;
-timer(function() {
+timer(function() {  // loop function
   pwmWrite(32, value);  // write signal
   value++;
   if (value === 10) {
