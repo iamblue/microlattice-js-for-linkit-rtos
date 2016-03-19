@@ -42,5 +42,3 @@ global.eventStatus.on('wifiConnect', function(){
 });
 
 ```
-
-
