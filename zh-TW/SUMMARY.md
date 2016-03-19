@@ -5,6 +5,7 @@
   * [如何建造出 image ?]()
   * [如何燒錄 image 至版子中 ?]()
 * [關於 MT7687 command line]()
+* [MT7687 pinmux]() 
 * [API Example](api/README.md)
   * [MQTT](api/mqtt.md)
   * [md5](api/md5.md)
@@ -20,3 +21,4 @@
   * [pinmux](api/pinmux.md)
   * [http](api/http.md)
 * [雲端服務(Mediatek cloud sandbox)](cloud/README.md)
+  * MCS 透過 control datachannel 點燈  
