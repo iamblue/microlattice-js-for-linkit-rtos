@@ -17,8 +17,8 @@ var heartBeatCommand = deviceId + ',' + deviceKey + ',0';
 wifi({
   mode: 'station', // default is station
   auth: 'PSK_WPA2',
-  ssid: 'mcs',
-  password: 'mcs12345678',
+  ssid: 'Input your wifi ssid',
+  password: 'Input your wifi password',
 });
 var firstConnect = 0;
 
