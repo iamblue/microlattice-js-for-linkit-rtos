@@ -13,9 +13,9 @@
 * Content
 
 ``` js
-  timer(
-    function, // function
-    ms,    // nubmer
+  pinmux(
+    pin, // number
+    function mode    // nubmer
   )
 
 ```
@@ -23,9 +23,5 @@
 * Example
 
 ``` js
-  // every 2s , loop `print(123);` function
-  timer(function() {
-    print(123);
-  }, 2000);
-
+  pinmux(35, 8); // change pin35 to 8 function mode (GPIO).
 ```
