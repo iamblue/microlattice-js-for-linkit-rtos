@@ -1,8 +1,6 @@
 # 如何透過 MCS switch 頻道點燈
 
 
-
-
 ``` js
 var EventEmitter = require('ml-event').EventEmitter;
 var eventStatus = new EventEmitter();
