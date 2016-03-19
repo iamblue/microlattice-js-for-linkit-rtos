@@ -12,6 +12,8 @@ global.eventStatus = eventStatus;
 var deviceId = 'Input your deviceId';
 var deviceKey = 'Input your deviceKey';
 var heartBeatCommand = deviceId + ',' + deviceKey + ',0';
+var ip = '52.77.236.179';
+var port = 443;
 
 /* Setting wifi config */
 wifi({
@@ -27,7 +29,7 @@ pinmux(35, 8);
 
 /* Listening wifi connected event */
 global.eventStatus.on('wifiConnect', function(data){
-  tcpClient('52.77.236.179', 443, function(data) {
+  tcpClient(ip, port, function(data) {
     if (firstConnect === 0) {
       tcpSend(heartBeatCommand);
     }
