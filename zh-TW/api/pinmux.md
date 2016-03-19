@@ -1,4 +1,4 @@
-# Timer
+# Pinmux
 
 
 | API | description |
