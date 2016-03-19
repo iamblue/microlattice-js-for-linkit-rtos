@@ -4,7 +4,8 @@
   * [如何設定 Microlattice.js 環境 ?]()
   * [如何建造出 image ?]()
   * [如何燒錄 image 至版子中 ?]()
-* [API](api/README.md) Example
+* [關於 MT7687 command line]()
+* [API Example](api/README.md)
   * [MQTT](api/mqtt.md)
   * [md5](api/md5.md)
   * [sha](api/sha.md)
