@@ -1,9 +1,26 @@
 # MQTT
 
 
-
-
-| API | Remark |
+| API | description |
 | --- | --- |
-| deviceId | Unique Identifier for this Test Device, copy your own deviceId in the device detail page. |
-| deviceKey | Unique API Key for this Test Device, copy your own deviceKey in the device detail page. |
+| mqttClient | Help you to connect MQTT server. |
+| mqttServer | Help you to build MQTT server. |
+
+## API 
+
+
+### mqtt
+* Content: 
+
+``` js
+mqtt(
+  host,                 // string
+  port,                 // string
+  topic,                // string
+  clientId,             // string
+  qos,                  // number: Qo0: 0, Qo1: 1, Qo2: 2
+  recieve msg callback, // function
+)
+
+```
+
