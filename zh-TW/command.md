@@ -1,3 +1,8 @@
+# 如何透過 MCS switch 頻道點燈
+
+
+
+
 ``` js
 var EventEmitter = require('ml-event').EventEmitter;
 var eventStatus = new EventEmitter();
@@ -18,7 +23,7 @@ wifi({
 var firstConnect = 0;
 
 /* Setting gpio pinmux */
-
+pinmux(35, 8);
 
 /* Listening wifi connected event */
 global.eventStatus.on('wifiConnect', function(data){
