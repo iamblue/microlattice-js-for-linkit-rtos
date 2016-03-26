@@ -6,10 +6,10 @@
 | mqttClient | Help you to connect MQTT server. |
 | mqttServer | Help you to build MQTT server. |
 
-# API 
+# Native binding API
 
 
-### mqttClient
+### __mqttClient
 * Content
 
 ``` js
