@@ -3,16 +3,16 @@
 
 | API | description |
 | --- | --- |
-| adcRead | Help you to your ADC data. |
+| __adcRead | Help you to your ADC data. |
 
-# API 
+# Native binding API 
 
 
-### adcRead
+### __adcRead
 * Content
 
 ``` js
-adcRead(
+__adcRead(
   pin // number
 )
 ```
@@ -20,5 +20,5 @@ adcRead(
 * Example
 
 ``` js
-  adcRead(0); // read A0
+  __adcRead(0); // read A0
 ```
