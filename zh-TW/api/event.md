@@ -20,11 +20,6 @@ global.eventStatus.on('your channel name', 'your data')
 ## Example
 
 ``` js
-
-var EventEmitter = require('ml-event').EventEmitter;
-var eventStatus = new EventEmitter();
-global.eventStatus = eventStatus;
-
 global.eventStatus.on('info', function(data) {
   print(data);  // it will print `hello world` in every 2s.
 })
