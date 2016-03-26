@@ -3,18 +3,18 @@
 
 | API | description |
 | --- | --- |
-| wifi | Help you to set wifi mode. |
+| __wifi | Help you to set wifi mode. |
 
 ## Required
 
 * ml-event
 
-## API 
+## Native binding API 
 
 ### AP mode
 
 ``` js
-wifi({
+__wifi({
   mode: 'ap', // default is station
   auth: 'PSK_WPA2',
   ssid: 'Input your ssid',
@@ -30,7 +30,7 @@ var EventEmitter = require('ml-event').EventEmitter;
 var eventStatus = new EventEmitter();
 global.eventStatus = eventStatus;
 
-wifi({
+__wifi({
   mode: 'station', // default is station
   auth: 'PSK_WPA2',
   ssid: 'Input your ssid',
