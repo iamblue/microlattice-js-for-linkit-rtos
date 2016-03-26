@@ -24,7 +24,7 @@
 
 ``` js
   // every 2s , loop `print(123);` function
-  __ti(function() {
+  __loop(function() {
     print(123);
   }, 2000);
 
