@@ -3,20 +3,20 @@
 
 | API | description |
 | --- | --- |
-| gpioRead | Help you to read your GPIO data. |
-| gpioWrite | Help you to write your GPIO data. |
+| __gpioRead | Help you to read your GPIO data. |
+| __gpioWrite | Help you to write your GPIO data. |
 
 # Required
 * ml-pinmux
 
-# API 
+# Native binding API 
 
 
-### gpioRead
+### __gpioRead
 * Content
 
 ``` js
-gpioRead(
+__gpioRead(
   pin, // nubmer
   method, // string, pullup or pulldown
 )
@@ -25,16 +25,16 @@ gpioRead(
 * Example
 
 ``` js
-  pinmux(35, 8); // Just once declared
-  gpioRead(35, 'pulldown'); // read pin35, pulldown method
+  __pinmux(35, 8); // Just once declared
+  __gpioRead(35, 'pulldown'); // read pin35, pulldown method
 ```
 
 
-### gpioWrite
+### __gpioWrite
 * Content
 
 ``` js
-gpioWrite(
+__gpioWrite(
   pin, // nubmer
   value, // number
 )
@@ -43,6 +43,6 @@ gpioWrite(
 * Example
 
 ``` js
-  pinmux(35, 8); // Just once declared
-  gpioWrite(35, 0);
+  __pinmux(35, 8); // Just once declared
+  __gpioWrite(35, 0);
 ```
