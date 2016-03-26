@@ -12,7 +12,7 @@
 * Content
 
 ``` js
-  tcpClient(
+  __tcpClient(
     ip,   // string
     port, // number
     connected callback, // callback function
