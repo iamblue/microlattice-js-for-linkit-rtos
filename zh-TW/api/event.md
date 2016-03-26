@@ -24,7 +24,7 @@ global.eventStatus.on('info', function(data) {
   print(data);  // it will print `hello world` in every 2s.
 })
 
-timer(function() {
+_loop(function() {
   global.eventStatus.emit('info', 'hello world!');
 }, 2000);
 
