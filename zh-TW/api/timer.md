@@ -5,10 +5,10 @@
 | --- | --- |
 | timer | Help you to build loop function easily. |
 
-# API 
+# Native binding API  
 
 
-### timer
+### __timer
 
 * Content
 
