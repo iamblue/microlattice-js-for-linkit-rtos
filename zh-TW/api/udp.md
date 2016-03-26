@@ -3,7 +3,7 @@
 
 | API | description |
 | --- | --- |
-| udpClient | Help you to connect UDP protocol. |
+| __udpClient | Help you to connect UDP protocol. |
 
 # Native binding API 
 
@@ -23,7 +23,7 @@
 * Example
 
 ``` js
-  udpClient('52.77.236.179', 443, function(data) {
+  __udpClient('52.77.236.179', 443, function(data) {
     // callback
   });
 
