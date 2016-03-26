@@ -13,7 +13,7 @@
 * Content
 
 ``` js
-mqtt(
+__mqtt(
   host,                 // string
   port,                 // string
   topic,                // string
