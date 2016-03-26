@@ -3,16 +3,16 @@
 
 | API | description |
 | --- | --- |
-| md5 | MD5 encrypter |
+| __md5 | MD5 encrypter |
 
-# API 
+# Native binding API 
 
 
-### md5
+### __md5
 * Content
 
 ``` js
-md5(
+__md5(
   content, // string
 );
 ```
@@ -20,5 +20,5 @@ md5(
 * Example
 
 ``` js
-  print('md5:' + md5('abcdefghijklmnopqrstwxyz1234567'));
+  print('md5:' + __md5('abcdefghijklmnopqrstwxyz1234567'));
 ```
