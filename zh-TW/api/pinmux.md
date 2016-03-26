@@ -3,17 +3,17 @@
 
 | API | description |
 | --- | --- |
-| pimux | Help you to set pinmux. |
+| __pimux | Help you to set pinmux. |
 
-# API 
+# Native binding API 
 
 
-### pinmux
+### __pinmux
 
 * Content
 
 ``` js
-  pinmux(
+  __pinmux(
     pin, // number
     function mode    // nubmer
   )
