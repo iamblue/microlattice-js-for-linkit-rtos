@@ -23,5 +23,5 @@
 * Example
 
 ``` js
-  pinmux(35, 8); // change pin35 to 8 function mode (GPIO).
+  __pinmux(35, 8); // change pin35 to 8 function mode (GPIO).
 ```
