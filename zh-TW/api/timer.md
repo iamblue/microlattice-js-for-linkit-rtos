@@ -3,17 +3,17 @@
 
 | API | description |
 | --- | --- |
-| __timer | Help you to build loop function easily. |
+| __loop | Help you to build loop function easily. |
 
 # Native binding API  
 
 
-### __timer
+### __loop
 
 * Content
 
 ``` js
-  __timer(
+  __loop(
     function, // function
     ms,    // nubmer
   )
