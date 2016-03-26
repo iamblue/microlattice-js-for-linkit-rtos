@@ -5,14 +5,14 @@
 | --- | --- |
 | udpClient | Help you to connect UDP protocol. |
 
-# API 
+# Native binding API 
 
 
 ### udpClient
 * Content
 
 ``` js
-  udpClient(
+  __udpClient(
     ip,   // string
     port, // number
     connected callback, // callback function
