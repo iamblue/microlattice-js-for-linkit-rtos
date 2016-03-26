@@ -26,9 +26,6 @@ __wifi({
 ### Station mode
 
 ``` js
-var EventEmitter = require('ml-event').EventEmitter;
-var eventStatus = new EventEmitter();
-global.eventStatus = eventStatus;
 
 __wifi({
   mode: 'station', // default is station
