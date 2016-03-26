@@ -3,20 +3,20 @@
 
 | API | description |
 | --- | --- |
-| https | Help you to send the http request. |
+| __https | Help you to send the http request. |
 
 
-# API 
+# Native binding API 
 
 
-### https
+### __https
 * Content
 
 ``` js
 
 /* get api */
 
-https({
+__https({
   method: 'GET' // string
   url:    // string
   header: // string, default please set: '\r\n'
@@ -26,7 +26,7 @@ https({
 
 /* post api */
 
-https({
+__https({
   url: // string,
   method: 'POST' // string,
   header: // string, default please set: '\r\n'
@@ -50,7 +50,7 @@ https({
     header: '\r\n',
   };
 
-  http(config, function(data) {
+  __https(config, function(data) {
     print(data);
     var i = JSON.parse(data);
     print('status:' + i.status);
@@ -66,7 +66,7 @@ https({
     data: JSON.stringify(data),
   }
 
-  http(config, function(data) {
+  __https(config, function(data) {
     print('data: '+ data);
   });
 
