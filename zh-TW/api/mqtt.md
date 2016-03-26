@@ -3,8 +3,8 @@
 
 | API | description |
 | --- | --- |
-| mqttClient | Help you to connect MQTT server. |
-| mqttServer | Help you to build MQTT server. |
+| __mqttClient | Help you to connect MQTT server. |
+| __mqttServer | Help you to build MQTT server. |
 
 # Native binding API
 
