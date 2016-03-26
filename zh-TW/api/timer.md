@@ -13,7 +13,7 @@
 * Content
 
 ``` js
-  timer(
+  __timer(
     function, // function
     ms,    // nubmer
   )
@@ -24,7 +24,7 @@
 
 ``` js
   // every 2s , loop `print(123);` function
-  timer(function() {
+  __timer(function() {
     print(123);
   }, 2000);
 
