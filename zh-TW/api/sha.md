@@ -3,16 +3,16 @@
 
 | API | description |
 | --- | --- |
-| sha | sha encrypter |
+| __sha | sha encrypter |
 
-# API 
+# Native binding API 
 
 
-### sha
+### __sha
 * Content
 
 ``` js
-sha(
+__sha(
   content, // string
 );
 ```
@@ -20,5 +20,5 @@ sha(
 * Example
 
 ``` js
-  print('sha:' + sha('abcdefghijklmnopqrstwxyz1234567'));
+  print('sha:' + __sha('abcdefghijklmnopqrstwxyz1234567'));
 ```
