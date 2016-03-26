@@ -4,13 +4,6 @@
 * Copy this content in your Microlattice.js project.
 * `global.eventStatus` is the fixed name, don't change to other name. 
 
-``` js
-var EventEmitter = require('ml-event').EventEmitter;
-var eventStatus = new EventEmitter();
-global.eventStatus = eventStatus;
-
-```
-
 ## API
 ``` js
 
