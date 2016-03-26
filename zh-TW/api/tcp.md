@@ -23,7 +23,7 @@
 * Example
 
 ``` js
-  tcpClient('52.77.236.179', 443, function(data) {
+  __tcpClient('52.77.236.179', 443, function(data) {
     // callback
   });
 
