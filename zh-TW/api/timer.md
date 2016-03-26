@@ -3,7 +3,7 @@
 
 | API | description |
 | --- | --- |
-| timer | Help you to build loop function easily. |
+| __timer | Help you to build loop function easily. |
 
 # Native binding API  
 
