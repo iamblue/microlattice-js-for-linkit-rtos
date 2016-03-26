@@ -3,12 +3,12 @@
 
 | API | description |
 | --- | --- |
-| tcpClient | Help you to connect TCP. |
+| __tcpClient | Help you to connect TCP. |
 
-# API 
+# Native binding API  
 
 
-### tcpClient
+### __tcpClient
 * Content
 
 ``` js
