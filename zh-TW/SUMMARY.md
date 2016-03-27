@@ -1,7 +1,7 @@
 # Summary
 * [介紹](intro/README.md)
   * [關於 Microlattice.js](intro/about.md)
-  * [如何創建 Microlattice.js 專案 ?](intro/create.md)
+  * [如何創建 Microlattice.js 專案 ? (以 MT7687 為例)](intro/create.md)
   * [如何初始化 Microlattice.js 環境 ?](intro/install.md)
   * [如何建造出 image ?](intro/build.md)
   * [如何燒錄 image 至版子中 ?](intro/burn.md)
