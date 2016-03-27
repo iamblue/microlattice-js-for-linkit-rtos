@@ -17,4 +17,10 @@
 * ml init:mt7687
 * npm i
 
+## 至 MTK 官網下載 SDK
+
+* 請參考此步驟
+* 將下載的 rar 檔，放入此專案的 /sdk folder 之中
+* ml init:sdk && ml init:gcc
+
 ## 
