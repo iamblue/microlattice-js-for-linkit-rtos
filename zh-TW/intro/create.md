@@ -10,7 +10,7 @@
 ``` bash
 {
   "IC_CONFIG": "mt7687",
-  "BOARD_CONFIG": "mt7687_hdk",
+  "BOARD_CONFIG": "mt7687_hdk"
 }
 ```
 * npm install ml-mt7687-config --save
