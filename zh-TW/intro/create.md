@@ -21,6 +21,6 @@
 
 * 請參考此步驟
 * 將下載的 rar 檔，放入此專案的 /sdk folder 之中
-* ml init:sdk && ml init:gcc
+* npm run installEnv
 
 ## 
