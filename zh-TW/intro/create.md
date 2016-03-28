@@ -30,4 +30,3 @@ print('Hello world!');
 ```
 * 接下來，把 7687 與您的電腦連接，再輸入: npm run build
 * 過一會即可以看到 Hello world !
-* 
