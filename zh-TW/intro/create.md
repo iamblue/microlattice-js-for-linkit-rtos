@@ -21,6 +21,10 @@
 
 * 請參考此步驟
 * 將下載的 rar 檔，放入此專案的 /sdk folder 之中
-* npm run installEnv
+* `npm run installEnv`
 
-## 
+## 完成環境安裝後，來啟動 Hello world 吧！
+* 編輯 index.js 中的內容為下：
+``` bash
+print('Hello world!');
+```
