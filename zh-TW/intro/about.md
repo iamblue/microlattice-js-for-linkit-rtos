@@ -12,6 +12,7 @@
 * 每一個細節包含 tool, module, engine core 都是可以拆分重組
 
 ## 與 Node.js 架構相較
+![](diffwithnode.png)
 
 ## Microlattice.js 架構圖
 
