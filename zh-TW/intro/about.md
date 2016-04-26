@@ -10,7 +10,7 @@
 * 針對 Javascript community 所熟悉的 coding style 追求接近 C 的效能.
 * 針對 IoT device 所 build 出輕量化 js image.
 * 每一個細節包含 tool, module, engine core 都是可以拆分重組.
-* 提供標準解決以下開發 embedded board 常見問題
+* 提供標準解決以下開發 embedded board 常見問題:
   * MCU build tool 環境各家很不一致
   * Debug/ Download code 各家皆不一樣
   * LICENSE 問題：大部份廠商 SDK 皆有 dis-contribute 規範
