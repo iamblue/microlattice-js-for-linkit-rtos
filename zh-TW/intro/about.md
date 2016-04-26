@@ -13,5 +13,3 @@
 
 ## 與 Node.js 架構相較
 
-![](diffwithnode.png)
-
