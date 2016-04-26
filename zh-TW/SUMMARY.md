@@ -6,7 +6,7 @@
   * [windows 開發者注意事項](intro/window.md)
 * [關於 MT7687 上的指令集](command.md)
 * [MT7687 pinmux](pinmux.md) 
-* [API 範例](api/README.md)
+* [API 列表](api/README.md)
   * [I/O](api/ioREADME.md)
     * [Pinmux](api/pinmux.md)
     * [GPIO](api/gpio.md)
