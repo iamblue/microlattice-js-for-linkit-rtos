@@ -24,7 +24,7 @@
 * (windows 使用者請多做此步驟) 至此[ 下載 gcc ](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-win32.zip)並把檔案改名為 `gcc-arm-none-eabi.zip` 並丟到 ./sdk
 * copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.0.0_out.zip ./sdk` (注意 v3.0.0 記得改為您的 sdk version)
 * `npm run installEnv`
-* (windows 使用者請多做此步驟) 至 ./sdk 把 gcc-arm-none-eabi.zip 底下四個資料夾強制覆蓋 ./sdk/tools/gcc/gcc-arm-none-eabi/ 這個 folder 下的資料夾.
+* (windows 使用者請多做此步驟) 至 ./sdk 把 gcc-arm-none-eabi.zip 底下四個資料夾強制覆蓋 ./sdk/tools/gcc/gcc-arm-none-eabi/ 下的四個資料夾，若發生當案衝突請將原來四個資料夾全刪除再覆蓋.
 * (windows 使用者請多做此步驟) 至 project 根目錄輸入 `./windows.sh`
 
 ## 完成環境安裝後，來啟動 Hello world 吧！
