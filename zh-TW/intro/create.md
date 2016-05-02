@@ -35,7 +35,7 @@ pacman -S make
 
 ## 至 MTK 官網下載 SDK
 
-* 請參考此步驟
+* [請參考此步驟](https://iamblue.gitbooks.io/mt7687-on-linkit-rtos-ebook-for-community/content/zh-TW//intro/downloadSDK.html)
 * 將下載的 rar 檔，放入此專案的 ./sdk folder 之中
 * (windows 使用者請多做此步驟) 至此[ 下載 gcc ](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-win32.zip)並把檔案改名為 `gcc-arm-none-eabi.zip` 並丟到 ./sdk
 * copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.0.0_out.zip ./sdk` (注意 v3.0.0 記得改為您的 sdk version)
