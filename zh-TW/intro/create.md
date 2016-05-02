@@ -50,3 +50,4 @@ print('Hello world!');
 ```
 * 接下來，把 7687 與您的電腦連接，再輸入: `./build.sh`
 * 過一會即可以看到 Hello world !
+* ps. 若出現一些錯誤請再做一次 `./build.sh` 即可
