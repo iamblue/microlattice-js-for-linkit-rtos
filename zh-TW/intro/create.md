@@ -25,6 +25,7 @@
 * copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.0.0_out.zip ./sdk` (注意 v3.0.0 記得改為您的 sdk version)
 * `npm run installEnv`
 * (windows 使用者請多做此步驟) 至 ./sdk 把 gcc-arm-none-eabi.zip 底下四個資料夾強制覆蓋 ./sdk/tools/gcc/gcc-arm-none-eabi/ 這個 folder 下的資料夾.
+* (windows 使用者請多做此步驟) 至 project 根目錄輸入 `./windows.sh`
 
 ## 完成環境安裝後，來啟動 Hello world 吧！
 * 編輯 index.js 中的內容為下：
