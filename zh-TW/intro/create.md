@@ -1,6 +1,22 @@
 # 如何創建 Microlattice.js 如何創建 
 
 
+#### windows 開發者必做幾個項目
+* 安裝 [msys2](https://msys2.github.io/)
+* 安裝 [mbed driver](http://mbed.org/handbook/Windows-serial-configuration)
+* 打開安裝好的 msys2
+* 更新 msys2, 輸入:
+```
+update-core
+```
+* 安裝 uzip 和 make
+```
+pacman -S tar unzip
+pacman -S make
+```
+
+#### Linux/Mac 開發者直接進行以下項目
+
 ## 步驟
 * 請先具備好 Node.js (> 0.10.32 以上)環境
 * npm install microlattice -g
@@ -32,5 +48,5 @@
 ``` bash
 print('Hello world!');
 ```
-* 接下來，把 7687 與您的電腦連接，再輸入: npm run build
+* 接下來，把 7687 與您的電腦連接，再輸入: `./build.sh`
 * 過一會即可以看到 Hello world !
