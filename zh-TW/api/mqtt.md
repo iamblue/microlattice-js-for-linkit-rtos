@@ -4,7 +4,9 @@
 | API | description |
 | --- | --- |
 | __mqttClient | Help you to connect MQTT server. |
-| __mqttServer | Help you to build MQTT server. |
+| __mqttSend | Help you to send MQTT message. |
+| __mqttClose | Help you to turn off MQTT. |
+
 
 # Native binding API
 
