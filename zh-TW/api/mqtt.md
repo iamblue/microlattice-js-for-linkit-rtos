@@ -24,4 +24,5 @@ __mqttClient(
 
 ```
 
-### mqttServer
+### __mqttClose
+### __mqttSend
