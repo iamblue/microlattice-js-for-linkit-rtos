@@ -26,5 +26,6 @@ __mqttClient(
 
 ```
 
-### __mqttClose
 ### __mqttSend
+### __mqttClose
+
