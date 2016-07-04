@@ -1,7 +1,8 @@
 # 如何透過 MCS switch 頻道點燈
 
 
-* 
+* 首先請至 MCS create 好一個內有 switch datachannel 且新的 test device.
+* 請參考這個 [創建好 ml 專案] (https://iamblue.gitbooks.io/microlattice-js-for-linkit-rtos/content/zh-TW/intro/create.html)
 * 範例程式碼：
 
 ``` js
