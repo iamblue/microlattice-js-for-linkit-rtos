@@ -1,41 +1,36 @@
 # 如何透過 MCS switch 頻道點燈
 
 
+* 
+* 範例程式碼：
+
 ``` js
-var EventEmitter = require('ml-event').EventEmitter;
-var eventStatus = new EventEmitter();
-global.eventStatus = eventStatus;
+__pinmux(35, 8);
 
-/* mcs config */
-var deviceId = 'Input your deviceId';
-var deviceKey = 'Input your deviceKey';
-var heartBeatCommand = deviceId + ',' + deviceKey + ',0';
-var ip = '52.77.236.179';
-var port = 443;
+var status = 0;
 
-/* Setting wifi config */
-wifi({
+__wifi({
   mode: 'station', // default is station
   auth: 'PSK_WPA2',
-  ssid: 'Input your wifi ssid',
-  password: 'Input your wifi password',
+  ssid: 'Input your ssid',
+  password: 'Input your password',
 });
-var firstConnect = 0;
 
-/* Setting gpio pinmux */
-pinmux(35, 8);
-
-/* Listening wifi connected event */
-global.eventStatus.on('wifiConnect', function(data){
-  tcpClient(ip, port, function(data) {
-    if (firstConnect === 0) {
-      tcpSend(heartBeatCommand);
-    }
-    if (data.indexOf('switch,1') === 40) {
-      gpioWrite(35, 1);
-    } else {
-      gpioWrite(35,0);
-    }
+global.eventStatus.on('wifiConnect', function() {
+  // if wifi connect ...
+  __mqttClient(
+    "mqtt.mcs.mediatek.io",                 // string
+    "1883",                                 // string
+    "mcs/{your deviceId}/{your deviceKey}/{your dataChannel}", // string
+    'mcs-client',                               // string
+    0,                  // number: Qo0: 0, Qo1: 1, Qo2: 2
+    function(data) {
+      if (data.indexOf("switch,1") === 14) {
+        __gpioWrite(35, 1);
+      } else if (data.indexOf("switch,0") === 14) {
+        __gpioWrite(35, 0);
+      }
+      print(data);
   });
 });
 
