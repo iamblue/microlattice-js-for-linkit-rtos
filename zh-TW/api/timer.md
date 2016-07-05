@@ -35,6 +35,16 @@
 
 ### setTimeout
 
+* Content
+
+``` js
+  setTimeout(
+    function, // function
+    ms,    // nubmer
+  )
+
+```
+
 * Example 
 
 ``` js
@@ -55,6 +65,16 @@ setTimeout(function(){
 ```
 
 ### setInterval
+
+* Content
+
+``` js
+  setInterval(
+    function, // function
+    ms,    // nubmer
+  )
+
+```
 
 * Example 
 
