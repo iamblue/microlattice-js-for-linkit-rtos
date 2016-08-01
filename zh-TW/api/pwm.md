@@ -61,16 +61,17 @@ __pwmRead(
 
 // ** Hint ** GPIO_31 and PWM_32 is a same physical pin.
 
-__pinmux(31, 9);  // Change GPIO_31 pin to pwm mode
-__pwmRegister(32, 4, 400000);  // Regist PWM_32 to 4 MHZ mode, and frequency is 400000.
+__pinmux(31, 9);  // set pinmux
+__pwmRegister(32, 4, 400000);  // registe pwm
 
-var value = 0;
-__loop(function() {  // loop function
-  __pwmWrite(32, value);  // write signal
-  value++;
-  if (value === 10) {
-    value = 0;
+var t = 0;
+
+setInterval(function() {
+  __pwmWrite(32, t);  // write signal
+  t++;
+  if (t === 10) {
+    t = 0;
   }
-}, 10);
+}, 100);
 
 ```
