@@ -41,6 +41,7 @@ pacman -S make
 * copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.3.1_out.zip ./sdk` (注意 v3.3.1 記得改為您的 sdk version)
 * `npm run installEnv`
 * (windows 使用者請多做此步驟) 至 ./sdk 把 gcc-arm-none-eabi.zip 底下四個資料夾強制覆蓋 ./sdk/tools/gcc/gcc-arm-none-eabi/ 下的四個資料夾，若發生當案衝突請將原來四個資料夾全刪除再覆蓋.
+* (windows 使用者請多做此步驟) 請安裝這個 [mbed driver](https://developer.mbed.org/media/downloads/drivers/mbedWinSerial_16466.exe)
 * (windows 使用者請多做此步驟) 至 project 根目錄輸入 `./windows.sh`
 
 ## 完成環境安裝後，來啟動 Hello world 吧！
