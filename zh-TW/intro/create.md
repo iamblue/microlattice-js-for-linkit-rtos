@@ -35,8 +35,8 @@ pacman -S make
 
 ## 至 MTK 官網下載 SDK
 
-* [請參考此步驟](https://iamblue.gitbooks.io/mt7687-on-linkit-rtos-ebook-for-community/content/zh-TW//intro/downloadSDK.html)
-* 將下載的 rar 檔，放入此專案的 ./sdk folder 之中
+* 請先去下載 3.3.1 SDK : [點我](https://cdn.mediatek.com/download_page/index.html?platform=RTOS&version=v3.3.1&filename=LinkIt_SDK_V3.3.1_public.tar.gz)
+* 把下載好的 LinkIt_SDK_V3.3.1_public.tar.gz，放入此專案的 ./sdk folder 之中
 * (windows 使用者請多做此步驟) 至此[ 下載 gcc ](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-win32.zip)並把檔案改名為 `gcc-arm-none-eabi.zip` 並丟到 ./sdk
 * copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.0.0_out.zip ./sdk` (注意 v3.0.0 記得改為您的 sdk version)
 * `npm run installEnv`
