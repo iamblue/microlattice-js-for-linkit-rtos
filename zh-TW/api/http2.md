@@ -3,7 +3,7 @@
 
 | API | description |
 | --- | --- |
-| __http | Help you to send the http2 request. |
+| __http2 | Help you to send the http2 request. |
 
 
 # Native binding API 
