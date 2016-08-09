@@ -1,4 +1,24 @@
+# Fota
 
+
+| API | description |
+| --- | --- |
+| __fota | Help you to starting fota. |
+
+# Native binding API 
+
+
+### __fota
+
+* Content
+
+``` js
+  __pinmux(
+    pin, // number
+    function mode    // nubmer
+  )
+
+```
 
 
 ``` js
