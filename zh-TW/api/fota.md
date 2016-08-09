@@ -1,4 +1,4 @@
-# Fota
+# FOTA
 
 
 | API | description |
