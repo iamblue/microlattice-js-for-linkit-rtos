@@ -27,5 +27,5 @@
   * [Tools](api/toolsREADME.md)
     * [Timer](api/timer.md)
     * [Utils](api/utils.md)
-* [雲端服務(Mediatek cloud sandbox)](cloud/README.md)
+* [雲端服務(Mediatek cloud sandbox)](cloud/mcs-blink.md)
   * [MCS 透過 control datachannel 點燈](cloud/mcs-blink.md)
