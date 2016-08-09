@@ -28,7 +28,6 @@
   * [Event](api/event.md)
   * [Tools](api/toolsREADME.md)
     * [Timer](api/timer.md)
-    * [Utils](api/utils.md)
     * [Fota](api/fota.md)
     * [WatchDog](api/wdt.md)
 * [雲端服務(Mediatek cloud sandbox)](cloud/mcs-blink.md)
