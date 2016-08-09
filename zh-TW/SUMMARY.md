@@ -28,5 +28,6 @@
     * [Timer](api/timer.md)
     * [Utils](api/utils.md)
     * [Fota](api/fota.md)
+    * [WatchDog](api/wdt.md)
 * [雲端服務(Mediatek cloud sandbox)](cloud/mcs-blink.md)
   * [MCS 透過 control datachannel 點燈](cloud/mcs-blink.md)
