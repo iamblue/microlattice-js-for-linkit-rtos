@@ -13,9 +13,8 @@
 * Content
 
 ``` js
-  __pinmux(
-    pin, // number
-    function mode    // nubmer
+  __fota(
+    cdn url, // string
   )
 
 ```
