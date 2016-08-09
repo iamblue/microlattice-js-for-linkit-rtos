@@ -23,7 +23,7 @@
     * [UDP](api/udp.md)
     * [Http](api/http.md)
     * [Https(TBD)](api/https.md)
-    * HTTP2(TBD)
+    * [HTTP2(TBD)](api/http2.md)
     * [MQTTs(TBD)](api/mqtts.md)
   * [Event](api/event.md)
   * [Tools](api/toolsREADME.md)
