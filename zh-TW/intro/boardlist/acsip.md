@@ -7,8 +7,7 @@
 ## 使用說明
 
 
-#### 設定 featureConfig.json
-
+### 設定 FTDI 相關的環境 
 * 請在 `featureConfig.json` 多加上這兩行：
 
 ``` json
