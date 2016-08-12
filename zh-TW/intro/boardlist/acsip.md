@@ -1,4 +1,4 @@
-# Acsip AI7687 開發板
+ # Acsip AI7687 開發板
 
 ## 圖片
 
@@ -6,6 +6,7 @@
 
 ## 使用說明
 
+請務必先完成[此章節](/intro/create)，並創建好專案 
 
 ### 設定 FTDI download 相關的環境 
 * 請在 `featureConfig.json` 多加上這兩行：
@@ -21,7 +22,7 @@ ps. 上述的 `/dev/tty.usbserial` 則是寫你的版子跟你電腦對接之 co
 
 ### 每次燒錄的步驟
 * 在 index.js 寫好你的 app 後
-* 請先確定沒有其他 Terminal 正在監聽你的 com port
+* 請先確定沒有其他 Terminal 正在監聽你的 com port，有的話請關閉
 * 將 jumper 插入此處，並且按一次 reset 鈕.
 * 回到 Terminal 下: `npm run build` 
 * 出現 `` 字樣時，按下版子上的 reset 鈕
