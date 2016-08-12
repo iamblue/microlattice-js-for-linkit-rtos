@@ -31,5 +31,3 @@ ps. 上述的 `/dev/tty.usbserial` 則是寫你的版子跟你電腦對接之 co
 * 開啟另外一個 Terminal 下 `minicom -D {Input your com port`, 例如: `minicom -D /dev/tty.usbserial-00001014B`
 * 請拔起 jumper，並再按一次 reset 按鈕
 * 這時候就會看到這個新開的 Terminal 上面出現相關的 debug 畫面囉!
- 
-* 
