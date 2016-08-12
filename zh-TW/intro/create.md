@@ -35,7 +35,6 @@ pacman -S make
 
 ## 專案安裝步驟
 
-
 | Linus/ mac 使用者步驟 | Windows 使用者步驟 |
 | -- | -- |
 | * 請先去下載 3.3.1 SDK : [點我](https://cdn.mediatek.com/download_page/index.html?platform=RTOS&version=v3.3.1&filename=LinkIt_SDK_V3.3.1_public.tar.gz) | * 請先去下載 3.3.1 SDK : [點我](https://cdn.mediatek.com/download_page/index.html?platform=RTOS&version=v3.3.1&filename=LinkIt_SDK_V3.3.1_public.tar.gz) |
