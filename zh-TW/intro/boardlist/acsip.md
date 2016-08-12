@@ -20,7 +20,7 @@
 
 ps. 上述的 `/dev/tty.usbserial` 則是寫你的版子跟你電腦對接之 com port 
 
-### 每次燒錄的步驟
+### 每次 燒錄 / Debug 的步驟
 * 在 index.js 寫好你的 app 後
 * 請先確定沒有其他 Terminal 正在監聽你的 com port，有的話請關閉
 * 將 jumper 插入此處，並且按一次 reset 鈕.
