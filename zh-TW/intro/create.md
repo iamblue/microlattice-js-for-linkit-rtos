@@ -1,4 +1,4 @@
-2.# 如何創建 Microlattice.js for MT7687 專案
+# 如何創建 Microlattice.js for MT7687 專案
 
 
 #### windows 開發者必做幾個項目
