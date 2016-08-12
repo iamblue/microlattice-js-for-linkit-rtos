@@ -35,14 +35,16 @@ pacman -S make
 
 ## 至 MTK 官網下載 SDK
 
-* 請先去下載 3.3.1 SDK : [點我](https://cdn.mediatek.com/download_page/index.html?platform=RTOS&version=v3.3.1&filename=LinkIt_SDK_V3.3.1_public.tar.gz)
-* 把下載好的 LinkIt_SDK_V3.3.1_public.tar.gz，放入此專案的 ./sdk folder 之中
-* (windows 使用者請多做此步驟) 至此[ 下載 gcc ](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-win32.zip)並把檔案改名為 `gcc-arm-none-eabi.zip` 並丟到 ./sdk
-* copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.3.1_out.zip ./sdk` (注意 v3.3.1 記得改為您的 sdk version)
-* `npm run installEnv`
-* (windows 使用者請多做此步驟) 至 ./sdk 把 gcc-arm-none-eabi.zip 底下四個資料夾強制覆蓋 ./sdk/tools/gcc/gcc-arm-none-eabi/ 下的四個資料夾，若發生當案衝突請將原來四個資料夾全刪除再覆蓋.
-* (windows 使用者請多做此步驟) 請安裝這個 [mbed driver](https://developer.mbed.org/media/downloads/drivers/mbedWinSerial_16466.exe)
-* (windows 使用者請多做此步驟) 至 project 根目錄輸入 `./windows.sh`
+
+| Linus/ mac 使用者步驟 | Windows 使用者步驟 |
+| -- | -- |
+| * 請先去下載 3.3.1 SDK : [點我](https://cdn.mediatek.com/download_page/index.html?platform=RTOS&version=v3.3.1&filename=LinkIt_SDK_V3.3.1_public.tar.gz) | * 請先去下載 3.3.1 SDK : [點我](https://cdn.mediatek.com/download_page/index.html?platform=RTOS&version=v3.3.1&filename=LinkIt_SDK_V3.3.1_public.tar.gz) |
+| * 把下載好的 LinkIt_SDK_V3.3.1_public.tar.gz，放入此專案的 ./sdk folder 之中 | * 把下載好的 LinkIt_SDK_V3.3.1_public.tar.gz，放入此專案的 ./sdk folder 之中 |
+| 不用做，跳下一個 | 至此[ 下載 gcc ](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-win32.zip)並把檔案改名為 `gcc-arm-none-eabi.zip` 並丟到 ./sdk|
+| copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.3.1_out.zip ./sdk` | copy cache file : `cp ./node_modules/ml-mt7687-config/templates/v3.3.1_out.zip ./sdk` |
+|`npm run installEnv` | `npm run installEnv` |
+|- | 至 ./sdk 把 gcc-arm-none-eabi.zip 底下四個資料夾強制覆蓋 ./sdk/tools/gcc/gcc-arm-none-eabi/ 下的四個資料夾，若發生當案衝突請將原來四個資料夾全刪除再覆蓋.|
+| -| 至 project 根目錄輸入 `./windows.sh` |
 
 ## 完成環境安裝後，來啟動 Hello world 吧！
 * 編輯 index.js 中的內容為下：
