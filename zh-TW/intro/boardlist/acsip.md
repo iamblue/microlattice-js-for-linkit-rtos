@@ -6,7 +6,7 @@
 
 ## 使用說明
 
-請務必先完成[此章節](/intro/create)，並創建好專案 
+請務必先完成[此章節](/intro/create.md)，並創建好專案 
 
 ### 設定 FTDI download 相關的環境 
 * 請在 `featureConfig.json` 多加上這兩行：
