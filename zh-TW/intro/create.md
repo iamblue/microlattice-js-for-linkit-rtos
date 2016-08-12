@@ -17,7 +17,7 @@ pacman -S make
 
 #### Linux/Mac 開發者直接進行以下項目
 
-## microlattice 基礎環境
+## Microlattice 基礎環境
 * 請先具備好 Node.js (0.10.32 ~ 4.2.2)環境
 * npm install microlattice -g
 * 創建一個新的資料夾並進去: mkdir testSDK && cd testSDK
