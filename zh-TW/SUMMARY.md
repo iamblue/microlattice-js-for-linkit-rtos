@@ -4,6 +4,8 @@
   * [如何創建 Microlattice.js 專案 ? (以 MT7687 為例)](intro/create.md)
   * [如何安裝 Microlattice.js 套件 ?](intro/install.md)
   * [目前支援開發板清單](/intro/supportboardlist.md)
+    * [SAC 7688 HDK](/intro/boardlist/SAC.md)
+    * [Acsip AI7688](/intro/boardlist/acsip.md)
   * [windows 開發者注意事項](intro/window.md)
 * [關於 MT7687 上的指令集](command.md)
 * [MT7687 pinmux](pinmux.md) 
