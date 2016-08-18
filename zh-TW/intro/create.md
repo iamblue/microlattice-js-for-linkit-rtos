@@ -9,7 +9,7 @@
 ```
 update-core
 ```
-* 安裝 uzip 和 make
+* 安裝一些 msys2 套件:
 ```
 pacman -S tar unzip
 pacman -S make
