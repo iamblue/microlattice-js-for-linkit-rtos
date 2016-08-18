@@ -1,10 +1,10 @@
-# 如何透過 MCS switch 頻道點燈
+# 如何使用 MCS FOTA
 
-* 首先請至 MCS 創建好一個內有 switch datachannel 的 test device.
-* 請參考這個 [創建好 ml 專案](https://iamblue.gitbooks.io/microlattice-js-for-linkit-rtos/content/zh-TW/intro/create.html)
+* 首先請至 MCS 創建好一個 test device.
+* 請參考這個 [創建好 ml 專案] (https://iamblue.gitbooks.io/microlattice-js-for-linkit-rtos/content/zh-TW/intro/create.html)
 * 到您創建好的 ml 專案根目錄下: `npm install ml-mcs --save`
 * 至 featureConfig.json 添加: `ml-mcs: true`
-* 範例程式碼：
+* 接下來至 index.js 參考這段範例程式碼：
 
 ``` js
   __pinmux(35, 8);
@@ -24,13 +24,13 @@
       '7687client',                             // string
       0,                  // number: Qo0: 0, Qo1: 1, Qo2: 2
       function(data) {
+        // FOTA 的 data parser 部分已經有在 lib 底層整好
         print(data);
-        if (data.indexOf("switch,1") === 14) {
-          __gpioWrite(35, 1);
-        } else if (data.indexOf("switch,0") === 14) {
-          __gpioWrite(35, 0);
-        }
-    });
+      }
+    );
   });
 
 ```
+* 輸入 `npm run build` 燒 code 進去 MT7687 (燒 code 方式請注意各個開發板的不同)
+* 回到 MCS 的 test device detail page.
+* 點選 firmware ，並上傳您所指定的 image 即可.
