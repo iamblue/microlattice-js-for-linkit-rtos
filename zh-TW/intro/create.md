@@ -13,6 +13,7 @@ update-core
 ```
 pacman -S tar unzip
 pacman -S make
+pacman -S git
 ```
 
 #### Linux/Mac 開發者直接進行以下項目
