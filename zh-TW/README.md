@@ -14,13 +14,13 @@ This e-book is suitable for the players who want to develop various kinds of Mic
 
 ### 注意事項
 
-1. 若您對本書細節有任何疑問想修改，歡迎至此 github 提交您的 PR : ```https://github.com/iamblue/microlattice-for-mt7687-ebook.git```。 
+1. 若您對本書細節有任何疑問想修改，歡迎至此 github 提交您的 PR : ```https://github.com/iamblue/microlattice-js-for-linkit-rtos```。
 
 2. 本電子書也向大眾徵稿，如果您有更好的 idea 或者是文章想貢獻歡迎至 github 提交您的 PR ( 請記得檔案/文章/內文要符合規範) 審核通過後我會把它納入本書章節之中。
 
 
 ### Precautions
 
-1. If you have any questions about the details of the book you want to modify, welcome to go to this github and submit your pull request.
+1. If you have any questions about the details of the book you want to modify, welcome to go to this [github](https://github.com/iamblue/microlattice-js-for-linkit-rtos) and submit your pull request.
 
 2. This e-book is also called for papers to the public, if you have a better idea or would like to contribute articles, welcome to go to the github and submit your pull request. (Remember all archives / articles / contents should be meet the specifications.) After auditting, I'll include them in the corresponding chapter in this book.

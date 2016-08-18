@@ -21,6 +21,6 @@ This e-book is suitable for the players who want to develop various kinds of Mic
 
 ### Precautions
 
-1. If you have any questions about the details of the book you want to modify, welcome to go to this github and submit your pull request.
+1. If you have any questions about the details of the book you want to modify, welcome to go to this [github](https://github.com/iamblue/microlattice-js-for-linkit-rtos) and submit your pull request.
 
 2. This e-book is also called for papers to the public, if you have a better idea or would like to contribute articles, welcome to go to the github and submit your pull request. (Remember all archives / articles / contents should be meet the specifications.) After auditting, I'll include them in the corresponding chapter in this book.
